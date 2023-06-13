@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins' sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+   
+    background-image: url(Biriyani.jpeg);
+    color: #fff;
+    width: 100%;
+    height: 100vh;
+   
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    margin-left: 10px;
+    
+}
+nav{
+    display: flex;
+    align-items: right;
+   justify-content: left;
+    flex-wrap: wrap;
+}
+
+nav ul li a:hover::after{
+    width:100%;
+
+}
+.header-text{
+    font-size: 30px;
+    margin-left:150px ;
+    margin-top: 50px;
+    
+}
+.header-text h1{
+    font-size: 30px;
+    line-height: 36px;
+    margin-left: 10px;
+    margin-right: 112px;
+    margin-top: 114px;
+    
+    
+}
+.header-text h1 span{
+    font-size: 50px;
+
+    color: #ff004f;
+}
+.header-text p{
+    font-size: 50px;
+    font-family: sans-serif;
+    font-style: oblique;
+    color: rgb(70, 202, 235);
+    margin-left: 450px;
+
+   
+
+}
+
